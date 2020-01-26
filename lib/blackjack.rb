@@ -54,6 +54,19 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome
+  total = initial_round
+  input = hit?
+  if input == "s"
+    input = hit?
+  end 
+  
+  if input == "h"
+    total += deal_card
+    display_card_total
+  end 
+  
+  
+  
 end
     
