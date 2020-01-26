@@ -18,8 +18,8 @@ def get_user_input
   gets
 end
 
-def end_game
-  # code #end_game here
+def end_game(card_total)
+  puts ""
 end
 
 def initial_round
