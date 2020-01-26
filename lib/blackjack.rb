@@ -63,7 +63,7 @@ def runner
   
   if input != total
     total += deal_card
-    display_card_total
+    display_card_total(total)
   end 
   
   if total > 21
