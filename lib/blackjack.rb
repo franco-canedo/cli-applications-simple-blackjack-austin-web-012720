@@ -57,11 +57,11 @@ def runner
   welcome
   total = initial_round
   input = hit?
-  if input == "s"
-    input = hit?
+  if input == total
+    hit?
   end 
   
-  if input == "h"
+  if input != total
     total += deal_card
     display_card_total
   end 
