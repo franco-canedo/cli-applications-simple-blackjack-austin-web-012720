@@ -66,6 +66,10 @@ def runner
     display_card_total
   end 
   
+  if total > 21
+    end_game
+  end 
+  
   
   
 end
