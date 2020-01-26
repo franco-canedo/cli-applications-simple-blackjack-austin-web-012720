@@ -56,7 +56,7 @@ end
 def runner
   welcome
   total = initial_round
-  input = hit?
+  input = hit?(total)
   if input == total
     hit?
   end 
